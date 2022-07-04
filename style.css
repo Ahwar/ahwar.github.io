@@ -318,6 +318,7 @@ pre[class*=language-] {
     font-style: normal;
     font-display: auto;
     font-weight: 400;
+    font-display: swap;
     src: url(fonts/Inter-UI-Regular.woff2)format("woff2"), url(fonts/Inter-UI-Regular.woff)format("woff")
 }
 
@@ -350,6 +351,7 @@ pre[class*=language-] {
     font-style: normal;
     font-display: auto;
     font-weight: 800;
+    font-display: swap;
     src: url(fonts/Inter-UI-Bold.woff2)format("woff2"), url(fonts/Inter-UI-Bold.woff)format("woff")
 }
 
@@ -1256,10 +1258,9 @@ hr {
 .footer__inner {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
     margin: 0 auto;
-    width: 760px;
-    max-width: 100%
+    max-width: 100%;
 }
 
 @media(max-width:900px) {
@@ -1272,7 +1273,7 @@ hr {
     display: flex;
     flex-direction: row;
     align-items: center;
-    font-size: 1rem;
+    font-size: 11px;
     color: #999
 }
 
